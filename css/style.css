@@ -25,7 +25,7 @@
   }
 
   body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -195,3 +195,37 @@
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
+
+  /* Portfoio */
+
+  .filter-btn {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+    background-color: var(--bg-color-utility);
+  }
+
+  .filter-btn:hover,
+  .filter-btn:focus {
+    color: var(--bg-color);
+    background-color: var(--accent-color);
+  }
+
+  .portfolio-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+  }
+
+  .portfolio-unit {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+  }
+  
