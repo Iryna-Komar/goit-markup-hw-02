@@ -26,7 +26,6 @@
 
   body {
     font-family: 'Roboto';
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -49,7 +48,7 @@
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    color: black;
+    color: #000000;
   }
   
   .logo-accent {
@@ -58,7 +57,6 @@
 
   .header-link {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--title-text-color);
@@ -70,10 +68,7 @@
   }
 
   .header-contacts {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
@@ -122,7 +117,6 @@
   /* features */
 
   .features-title {
-    font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
@@ -131,9 +125,7 @@
   
   /* services */
 
-  .services-title,
-  .team-title {
-    font-weight: 700;
+  .sction-title {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -155,7 +147,6 @@
   }
 
   .about-staff {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -172,29 +163,28 @@
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.19px; 
+    line-height: 1.19; 
     color: var(--bg-color);   
   }
 
   .link-map {
-    font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: var(--bg-color);
   }
 
   .link-mail,
   .link-tell { 
     font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
   }
+
+  .link-mail:hover,
+  .link-mail:focus,
+  .link-tell:hover,
+  .link-tell:focus {
+    color: var(--accent-color);
+  }
+
 
   /* Portfoio */
 
@@ -209,6 +199,10 @@
     background-color: var(--bg-color-utility);
   }
 
+  .pointer {
+    cursor: pointer;
+  }
+  
   .filter-btn:hover,
   .filter-btn:focus {
     color: var(--bg-color);
@@ -216,7 +210,6 @@
   }
 
   .portfolio-title {
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -224,7 +217,6 @@
   }
 
   .portfolio-unit {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
   }
